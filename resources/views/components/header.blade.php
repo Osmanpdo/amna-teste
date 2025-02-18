@@ -1,19 +1,21 @@
 <header class="w-full flex justify-center items-center flex-col bg-amna-primary text-white border-gray-300 border-b shadow-md">
-    <div class="bg-white w-full flex justify-center">
+    <div class="w-full flex justify-center  bg-amna-primary py-5">
+        <div>
+            <img src="{{ asset('logo.png') }}" alt="">
+        </div>
         <a href="{{ route('welcome') }}" class="p-1 "><img class="h-14" src="{{ asset('logos/amna-logo.png') }}" alt="logo da associação"></a>   
     </div>
-    <nav class="py-4 w-header">
-
+    <nav class="py-4 w-full flex justify-center bg-amna-secondary-500">
         <div class="flex justify-start items-center gap-6">
             <a href="{{ route('welcome') }}" class="p-1 hover:text-blue-400">INÍCIO</a>
-            
             <a href="{{ route('event') }}" class="p-1 hover:text-blue-400">EVENTOS</a>
-
             <a href="{{ route('news') }}" class="p-1 hover:text-blue-400">NOTÍCIAS</a>
-
             <a href="{{ route('about') }}" class="p-1 hover:text-blue-400">SOBRE</a>
         </div>
-        <div class="flex justify-start items-center">           
+    </nav>
+</header>
+
+        {{-- <div class="flex justify-start items-center">           
             @if (true)
             <a
                 href="{{ route('login') }}"
@@ -35,6 +37,4 @@
                 Painel de controle
             </a>
             @endif
-        </div> 
-    </nav>
-</header>
+        </div>  --}}
