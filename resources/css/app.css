@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-cols-t {
+    grid-template-columns: 3fr 1fr;
+}
+
+.grid-cols-form {
+    grid-template-columns: 66.66% 33.33%;
+}
+
+.w-app {
+    width: 600px;
+}
+
+.w-header, .w-footer, .w-main {
+    width: 1024px;
+}
+
+.grid-header {
+    grid-template-columns: 212px 500px 312px;
+}
