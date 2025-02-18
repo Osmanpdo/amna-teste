@@ -1,4 +1,4 @@
-<footer class="w-full flex justify-center bg-amna-primary">
+<footer class="w-full flex justify-center bg-amna-primary-100">
     <div class="w-footer text-white">
         <div class="grid grid-cols-4 py-8">
             <div class="flex justify-start">

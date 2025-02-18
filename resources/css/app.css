@@ -20,4 +20,5 @@
 
 .grid-header {
     grid-template-columns: 212px 500px 312px;
+    color: #011c60;
 }
