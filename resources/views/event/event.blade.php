@@ -15,7 +15,7 @@
             @vite(['resources/css/app.css', 'resources/js/app.js'])
         @endif
     </head>
-    <body class="w-full h-full flex justify-center items-center flex-col">
+    <body class="w-full h-full flex justify-center items-center flex-col bg-gray-100">
         <x-header/>
         <main class="w-main h-full text-black flex justify-center items-center flex-col">
             <div class="py-4 w-app">

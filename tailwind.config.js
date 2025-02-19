@@ -47,6 +47,7 @@ export default {
 
                     confirm: '#21851e',
                     cancel: '#fe0e26',
+                    backgound: '#EAEAEA',
                 },
             },
         },

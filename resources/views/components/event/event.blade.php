@@ -1,10 +1,10 @@
-<div class="bg-white flex flex-col my-4 p-4 rounded-md shadow-md transition-all duration-200 hover:bg-gray-200">
+<div class="bg-white flex flex-col my-4 p-8 rounded-lg shadow-lg transition-all duration-200 hover:bg-gray-200 hover:scale-105 border-2 border-gray-300" style="font-size: 1.2em;">
     <header>
         <h2 class="text-lg font-bold">{{ $title ?? 'Evento Sem Título' }}</h2>
-        <p class="">{{ $description ?? 'Sem descrição disponível.' }}</p>
+        <p>{{ $description ?? 'Sem descrição disponível.' }}</p>
     </header>
 
-    <div class="mt-2 ">
+    <div class="mt-2">
         <p>
             <time datetime="{{ $startDate }}">Começa: {{ $startDate }}</time> 
             — 

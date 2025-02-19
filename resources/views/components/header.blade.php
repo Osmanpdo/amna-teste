@@ -4,20 +4,20 @@
             <img class="h-20" src="{{ asset('logo.png') }}" alt="">
         </div>
         <div>
-            <a href="{{ route('welcome') }}" class="text-7xl font-serif">AMNA</a>  
-        </div> 
+            <a href="{{ route('welcome') }}" class="text-7xl font-serif">AMNA</a>
+        </div>
     </div>
     <nav class="p-1 w-full flex justify-center bg-amna-primary-100">
         <div class="flex justify-start items-center gap-6">
-            <a href="{{ route('welcome') }}" class="p-2 hover:text-blue-400 hover:scale-110 transition-all">INÍCIO</a>
-            <a href="{{ route('event') }}" class="p-1 hover:text-blue-400">EVENTOS</a>
-            <a href="{{ route('news') }}" class="p-1 hover:text-blue-400">NOTÍCIAS</a>
-            <a href="{{ route('about') }}" class="p-1 hover:text-blue-400">SOBRE</a>
+            <a href="{{ route('welcome') }}" class="p-2 hover:text-blue-400 hover:scale-110 transition-all ">INÍCIO</a>
+            <a href="{{ route('event') }}" class="p-2 hover:text-blue-400 hover:scale-110 transition-all">EVENTOS</a>
+            <a href="{{ route('news') }}" class="p-2 hover:text-blue-400 hover:scale-110 transition-all">NOTÍCIAS</a>
+            <a href="{{ route('about') }}" class="p-2 hover:text-blue-400 hover:scale-110 transition-all">SOBRE</a>
         </div>
     </nav>
 </header>
 
-        {{-- <div class="flex justify-start items-center">           
+        {{-- <div class="flex justify-start items-center">
             @if (true)
             <a
                 href="{{ route('login') }}"
