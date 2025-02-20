@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\NewsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -45,3 +46,6 @@ Route::get('/profile', function () {
 
 // Nova rota para a descrição detalhada do evento
 Route::get('/event/{id}', [EventController::class, 'show'])->name('event.show');
+
+// Rota para a descrição detalhada da notícia
+Route::get('/news/{id}', [NewsController::class, 'show'])->name('news.show');
