@@ -20,7 +20,6 @@
         <main class="w-main h-full text-black flex justify-center items-center flex-col">
             <div class="py-4 w-app">
                 <h1 class="text-xl font-bold">Últimos Eventos</h1>
-                <p>{{ $events }}</p>
                 <x-event.event title="Aniversário" description="Festa de aniversário com amigos" startDate="15-08-2025" endDate="15-08-2025" link="{{ route('event.show', ['id' => 1]) }}"/>
                 <x-event.event title="Reunião de Trabalho" description="Reunião semanal da equipe" startDate="20-02-2025" endDate="20-02-2025" link="{{ route('event.show', ['id' => 2]) }}"/>
                 <x-event.event title="Workshop de Laravel" description="Oficina prática sobre desenvolvimento com Laravel" startDate="05-03-2025" endDate="05-03-2025" link="{{ route('event.show', ['id' => 3]) }}"/>
