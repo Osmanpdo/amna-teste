@@ -19,7 +19,6 @@ Route::get('/login', function () {
     return view('Auth.login');
 })->name('login');
 
-
 Route::get('/register', function () {
     return view('Auth.register');
 })->name('register');
@@ -27,7 +26,6 @@ Route::get('/register', function () {
 Route::get('/forgot-password', function () {
     return view('Auth.forgot_password');
 })->name('forgot-password');
-
 
 Route::get('/event', function () {
     return view('event.event');
@@ -45,3 +43,5 @@ Route::get('/profile', function () {
     return view('profile.profile');
 })->name('profile');
 
+// Nova rota para a descrição detalhada do evento
+Route::get('/event/{id}', [EventController::class, 'show'])->name('event.show');
