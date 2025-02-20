@@ -13,11 +13,12 @@
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file.exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
-       @endif
+        @endif
     </head>
     <body class="w-full h-full flex justify-center items-center flex-col bg-gray-100">
         <x-header/>
         <main class="w-main h-full text-black flex justify-center items-center flex-col">
+            <x-carousel/>
             <div class="w-app bg-white my-6" style="padding: 20px; border: 2px solid #ccc; border-radius: 10px; background-color: #f9f9f9; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolorum perspiciatis voluptate soluta tempora corrupti sapiente odit! Perferendis, rem cupiditate facere recusandae necessitatibus cum consequuntur officiis ducimus tenetur sit quae?</p>
 
