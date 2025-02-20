@@ -29,7 +29,7 @@ Route::get('/forgot-password', function () {
 })->name('forgot-password');
 
 Route::get('/event', function () {
-    return view('event.event');
+    return view('event.event', ['events' => 'teste']);
 })->name('event');
 
 Route::get('/news', function () {

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mx-auto px-4 py-8">
+    <div class="container mx-auto px-4 py-8 w-[1024px]">
         <div class="bg-white shadow-md rounded-lg p-6">
             <h1 class="text-3xl font-bold mb-4">{{ $event['title'] }}</h1>
             <div class="flex flex-col md:flex-row mb-6">

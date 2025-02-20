@@ -14,6 +14,14 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+
+            width: {
+                'amna-app': '1380px',
+                'amna-content': '600px',
+            },
+            height: {
+                'amna-logo': '4.5rem',
+            },
             colors: {
                 amna: {
                     primary: {
