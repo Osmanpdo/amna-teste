@@ -17,13 +17,13 @@
     </head>
     <body class="w-full h-full flex justify-center items-center flex-col bg-gray-100">
         <x-header/>
-        <main class="lg:w-amna-app md:w-full w-full h-full text-black flex justify-center items-center flex-col">
-            <div class="mt-4 lg:flex hidden">
+        <main class="lg:w-amna-app w-full h-full text-black flex justify-center items-center flex-col">
+            <div class="mt-4">
                 <x-carousel/>
             </div>
-            <div class="w-full my-6 flex flex-col justify-between lg:flex-row md:flex-col">
-                <div class="h-full bg-white my-6 p-5 rounded-[0.625rem] lg:w-amna-content md:w-full sm:w-full">
-                    <h2 class="text-4xl font-bold text-[#010360] pb-4">Bem Vindo a AMNA</h2>
+            <div class="w-full text-justify my-1 px-5 flex flex-col justify-between lg:flex-row md:flex-col lg:my-6">
+                <div class="w-full h-full bg-white my-6 p-5 rounded-[0.625rem] lg:w-amna-content">
+                    <h2 class="text-3xl lg:text-4xl font-bold text-[#010360] pb-4">Bem Vindo a AMNA</h2>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolorum perspiciatis voluptate soluta tempora corrupti sapiente odit! Perferendis, rem cupiditate facere recusandae necessitatibus cum consequuntur officiis ducimus tenetur sit quae?</p>
 
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, asperiores obcaecati nostrum corrupti deserunt voluptas est eos officiis at, consectetur autem? Cupiditate accusantium officiis voluptates expedita necessitatibus, voluptas adipisci! Veritatis!</p>
@@ -43,14 +43,14 @@
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores possimus perspiciatis quo perferendis voluptates, voluptatibus esse libero tenetur nemo aperiam officia debitis quos maxime ea voluptas, pariatur consequatur! Nesciunt, unde.</p>
                 </div>
                 <div class="flex flex-col w-full lg:w-[31.25rem] md:w-full">
-                    <div class="bg-white my-6 p-5 rounded-[0.625rem]">
-                            <h2 class="text-4xl font-bold text-[#010360] ">Últimos Eventos</h2>
+                    <div class="bg-white my-1 p-5 rounded-[0.625rem] lg:my-6">
+                            <h2 class="text-3xl lg:text-4xl font-bold text-[#010360] ">Últimos Eventos</h2>
                             <x-event.event_realise title="Aniversário" description="Festa de aniversário com amigos" startDate="15-08-2025" endDate="15-08-2025" link="{{ route('event.show', ['id' => 1]) }}"/>
                             <x-event.event_realise title="Reunião de Trabalho" description="Reunião semanal da equipe" startDate="20-02-2025" endDate="20-02-2025" link="{{ route('event.show', ['id' => 2]) }}"/>
                             <x-event.event_realise title="Workshop de Laravel" description="Oficina prática sobre desenvolvimento com Laravel" startDate="05-03-2025" endDate="05-03-2025" link="{{ route('event.show', ['id' => 3]) }}"/>
                     </div>
                     <div class="bg-white my-6 p-5 rounded-[0.625rem]">
-                        <h2 class="text-4xl font-bold text-[#010360]">Últimos Notícias</h2>
+                        <h2 class="text-3xl lg:text-4xl font-bold text-[#010360]">Últimos Notícias</h2>
                         
                         <x-news.news_realise 
                         title="Tecnologia 6G promete revolucionar a comunicação" 

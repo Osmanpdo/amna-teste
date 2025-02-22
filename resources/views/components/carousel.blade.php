@@ -1,5 +1,5 @@
 <!-- filepath: /home/marcus/amna-teste/resources/views/components/carousel.blade.php -->
-<div class="relative max-w-4xl mx-auto p-4 border-2 border-transparent rounded-lg cursor-pointer lg:w-[50rem] h-[25rem] md:w-[40rem] w-[30rem]" id="carousel">
+<div class="relative max-w-4xl mx-auto p-4 border-2 border-transparent rounded-lg cursor-pointer w-[26rem] h-[13rem] lg:w-[50rem] lg:h-[25rem] md:w-[40rem] md:h-[20rem]" id="carousel">
     <div class="carousel-item active absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-1000 ease-in-out z-1">
         <img src="https://lh3.googleusercontent.com/proxy/aAUxwffDmZGAXi4KjBtcGYTGQ0W9FIafRTfYWVzX8HhptgU2buqsjWwEmZxJ8COTYrhFSDrCjN-GP-moRCG1ByhIVP9SKwhdWVX_Adni2QbKRYKRkvEkk0l3RKHEmo0" class="w-full h-full object-cover rounded-lg shadow-lg">
     </div>
