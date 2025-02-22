@@ -26,4 +26,22 @@ class NewsController extends Controller
 
         return view('news.news_description', compact('news'));
     }
+    public function create()
+    {
+        return view('news.news_create');
+    }
+
+    public function store(Request $request)
+    {
+        // Lógica para salvar o evento no banco de dados
+        // Exemplo:
+        // $event = new Event();
+        // $event->name = $request->input('name');
+        // $event->date = $request->input('date');
+        // $event->location = $request->input('location');
+        // $event->description = $request->input('description');
+        // $event->save();
+
+        return redirect()->route('events.index')->with('success', 'Evento cadastrado com sucesso!');
+    }
 }

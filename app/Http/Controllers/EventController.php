@@ -26,4 +26,23 @@ class EventController extends Controller
 
         return view('event.event_description', compact('event'));
     }
+
+    public function create()
+    {
+        return view('event.event_create');
+    }
+
+    public function store(Request $request)
+    {
+        // Lógica para salvar o evento no banco de dados
+        // Exemplo:
+        // $event = new Event();
+        // $event->name = $request->input('name');
+        // $event->date = $request->input('date');
+        // $event->location = $request->input('location');
+        // $event->description = $request->input('description');
+        // $event->save();
+
+        return redirect()->route('events.index')->with('success', 'Evento cadastrado com sucesso!');
+    }
 }

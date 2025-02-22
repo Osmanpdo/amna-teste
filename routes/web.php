@@ -29,7 +29,7 @@ Route::get('/forgot-password', function () {
 })->name('forgot-password');
 
 Route::get('/event', function () {
-    return view('event.event', ['events' => 'teste']);
+    return view('event.event');
 })->name('event');
 
 Route::get('/news', function () {
@@ -49,3 +49,23 @@ Route::get('/event/{id}', [EventController::class, 'show'])->name('event.show');
 
 // Rota para a descrição detalhada da notícia
 Route::get('/news/{id}', [NewsController::class, 'show'])->name('news.show');
+
+// Rotas para criar e armazenar eventos
+Route::get('/events/create', function () {
+    return view('event.event_create');
+})->name('events.create');
+Route::post('/events', [EventController::class, 'store'])->name('events.store');
+
+// Rotas para criar e armazenar notícias
+Route::get('/newss/create', function () {
+    return view('news.news_create');
+})->name('newss.create');
+Route::post('/news', [NewsController::class, 'store'])->name('news.store');
+
+Route::get('/admin', function () {
+    return view('adm.admin');
+})->name('admin');
+
+Route::get('/welcomeadm', function () {
+    return view('adm.welcomeAdm');
+})->name('admin');
