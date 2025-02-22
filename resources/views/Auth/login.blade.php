@@ -12,10 +12,10 @@
 </head>
 
 <body class="w-full h-full flex justify-center items-center flex-col">
-    <main class="w-main h-screen text-black flex justify-center items-center flex-col">
-        <div class="py-4 w-[400px] shadow-2xl rounded-md transition-all duration-200">
-            <div class="h-full w-full">
-                <div>
+    <main class="lg:w-amna-app md:w-amna-app-md lg:h-screen text-black flex justify-start items-center flex-col lg:justify-center">
+        <div class="py-4 mt-4 w-full md:w-[25rem] lg:shadow-2xl md:shadow-2xl rounded-md transition-all duration-200 lg:mt-0">
+            <div class="h-full w-full flex flex-col">
+                <div class="w-full flex flex-col">
                     <a class="text-7xl font-serif w-full flex justify-start items-center bg-white text-black px-7" href="{{ route('welcome') }}">
                         <img class="h-20" src="{{ asset('logo.png') }}" alt="Logo da associação">
                         AMNA
@@ -39,7 +39,7 @@
                             <a class="text-blue-400 hover:text-blue-300 underline transition" href="{{ route('forgot-password') }}">Esqueceu a senha?</a>
                             <input class="bg-amna-terciary-600 hover:bg-amna-terciary-500 text-white text-center font-semibold py-1 px-3 my-4 border rounded transition duration-300" type="submit" value="Entrar">
                         </div>
-                        <span class=" border border-gray-500 w-full mt-8"></span>
+                        <span class="border border-gray-500 w-full mt-8"></span>
                         <div class="bg-white w-full my-4 p-2">
                             <p>Ainda não tem uma conta?</p>
                             <a class="text-blue-400 hover:text-blue-300 underline transition" href="{{ route('register') }}">Se inscreva gratuitamente</a>

@@ -50,7 +50,7 @@
                             <x-event.event_realise title="Workshop de Laravel" description="Oficina prática sobre desenvolvimento com Laravel" startDate="05-03-2025" endDate="05-03-2025" link="{{ route('event.show', ['id' => 3]) }}"/>
                     </div>
                     <div class="bg-white my-6 p-5 rounded-[0.625rem]">
-                        <h2 class="text-3xl lg:text-4xl font-bold text-[#010360]">Últimos Notícias</h2>
+                        <h2 class="text-3xl lg:text-4xl font-bold text-[#010360]">Últimas Notícias</h2>
                         
                         <x-news.news_realise 
                         title="Tecnologia 6G promete revolucionar a comunicação" 

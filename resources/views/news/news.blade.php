@@ -20,8 +20,8 @@
 <body class="w-full h-full flex justify-center items-center flex-col bg-gray-100">
     <x-header />
     <main class="h-full text-black flex justify-center items-center flex-col px-5 lg:w-amna-app">
-        <div class="flex justify-center flex-col py-4 lg:w-amna-content md:w-amna-app-md">
-            <h1 class="text-xl font-bold">Últimas Notícias</h1>
+        <div class="min-h-[50rem] flex flex-col py-4 lg:w-amna-content md:w-amna-app-md">
+            <h2 class="text-3xl lg:text-4xl font-bold text-[#010360]">Últimos Notícias</h2>
             <a href="{{ route('news.show', ['id' => 1]) }}">
                 <x-news.news title="Tecnologia 6G promete revolucionar a comunicação"
                     content="Pesquisadores afirmam que a rede 6G trará velocidades até 100 vezes superiores ao 5G, impulsionando inovações como realidade aumentada e veículos autônomos."
@@ -53,7 +53,8 @@
             </a>
         </div>
     </main>
+    <x-footer />
 </body>
 
-</html>>
+</html>
 

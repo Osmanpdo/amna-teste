@@ -17,7 +17,7 @@
     </head>
     <body class="w-full h-full flex justify-between items-center flex-col bg-gray-100">
         <x-header/>
-        <main class="w-full h-screen px-5 text-black flex justify-start items-center flex-col lg:w-amna-app ">
+        <main class="w-full min-h-[50rem] px-5 text-black flex justify-start items-center flex-col lg:w-amna-app ">
             <div class="w-full bg-white my-6 p-5 rounded-[0.625rem] lg:w-amna-content">
                 <h2 class="text-3xl lg:text-4xl font-bold text-[#010360] pb-4">Sobre Nós:</h2>
                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolorum perspiciatis voluptate soluta tempora corrupti sapiente odit! Perferendis, rem cupiditate facere recusandae necessitatibus cum consequuntur officiis ducimus tenetur sit quae?</p>
