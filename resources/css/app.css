@@ -18,15 +18,10 @@
     width: 1024px;
 }
 
-.grid-header {
-    grid-template-columns: 212px 500px 312px;
-    color: #011c60;
-}
-
 .highlight-box {
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+    padding: 0.625rem;
+    border: 0.125rem solid #ccc;
+    border-radius: 0.3125rem;
     background-color: #f9f9f9;
     text-align: center;
 }

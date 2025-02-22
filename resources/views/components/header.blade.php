@@ -1,13 +1,13 @@
 <header class="w-full flex justify-center items-center flex-col bg-amna-primary text-white border-gray-300 border-b shadow-md">
     <div class="py-6">
-        <a class="text-7xl font-serif w-full flex justify-start items-center text-black px-7" href="{{ route('welcome') }}">
-            <img class="h-amna-logo" src="{{ asset('logo.png') }}" alt="Logo da associação">
+        <a class="lg:text-7xl text-2xl font-serif w-full flex justify-start items-center text-black px-7" href="{{ route('welcome') }}">
+            <img class="lg:h-amna-logo h-6" src="{{ asset('logo.png') }}" alt="Logo da associação">
             AMNA
         </a>
     </div>
     <nav class="p-1 w-full flex justify-center bg-amna-primary-100">
         <div class="flex justify-start items-center gap-6">
-            <a href="{{ route('welcome') }}" class="p-2 hover:text-blue-400 hover:scale-110 transition-all ">INÍCIO</a>
+            <a href="{{ route('welcome') }}" class="text-base p-2 hover:text-blue-400 hover:scale-110 transition-all">INÍCIO</a>
             <a href="{{ route('event') }}" class="p-2 hover:text-blue-400 hover:scale-110 transition-all">EVENTOS</a>
             <a href="{{ route('news') }}" class="p-2 hover:text-blue-400 hover:scale-110 transition-all">NOTÍCIAS</a>
             <a href="{{ route('about') }}" class="p-2 hover:text-blue-400 hover:scale-110 transition-all">SOBRE</a>
