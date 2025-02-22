@@ -19,8 +19,8 @@
 
 <body class="w-full h-full flex justify-center items-center flex-col bg-gray-100">
     <x-header />
-    <main class="w-main h-full text-black flex justify-center items-center flex-col">
-        <div class="py-4 w-app">
+    <main class="h-full text-black flex justify-center items-center flex-col px-5 lg:w-amna-app">
+        <div class="flex justify-center flex-col py-4 lg:w-amna-content md:w-amna-app-md">
             <h1 class="text-xl font-bold">Últimas Notícias</h1>
             <a href="{{ route('news.show', ['id' => 1]) }}">
                 <x-news.news title="Tecnologia 6G promete revolucionar a comunicação"
@@ -55,4 +55,5 @@
     </main>
 </body>
 
-</html>
+</html>>
+

@@ -28,11 +28,11 @@
                     <form class="flex justify-start items-start flex-col" action="" method="post">
                         <div class="w-full py-2">
                             <label for="email">E-mail:</label>
-                            <input class="bg-white py-2 px-4 w-full border border-black rounded " placeholder="Seu e-mail" type="text" required>
+                            <input class="bg-white py-2 px-4 w-full border border-black rounded " placeholder="Seu e-mail" type="email" required>
                         </div>
                         <div class="w-full py-2">
                             <label for="password">Senha:</label>
-                            <input class="bg-white py-2 px-4 w-full border border-black rounded " placeholder="Sua senha" type="password" required>
+                            <input class="bg-white py-2 px-4 w-full border border-black rounded " placeholder="Sua senha" type="password" minlength="8" required>
                         </div>
 
                         <div class="w-full flex justify-start flex-col">

@@ -18,6 +18,7 @@ export default {
             width: {
                 'amna-app': '78.125rem',
                 'amna-content': '41.875rem',
+                'amna-app-md': '43.5rem'
             },
             height: {
                 'amna-logo': '4.5rem',
